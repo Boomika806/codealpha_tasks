@@ -90,7 +90,7 @@ public class CodeAlpha_Artificial_Intelligence_Chatbot extends JFrame {
             chatArea.append("--------------------------------------------------\n");
             
             inputField.setText("");
-            chatArea.setCaretPosition(chatArea.getDocument().getLength()); // Auto-scroll
+            chatArea.setCaretPosition(chatArea.getDocument().getLength()); 
         }
     }
 
@@ -98,5 +98,6 @@ public class CodeAlpha_Artificial_Intelligence_Chatbot extends JFrame {
         SwingUtilities.invokeLater(() -> new CodeAlpha_Artificial_Intelligence_Chatbot());
     }
 }
+
 
 
