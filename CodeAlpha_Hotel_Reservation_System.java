@@ -35,7 +35,7 @@ public class CodeAlpha_Hotel_Reservation_System {
             System.out.println("1. Search Rooms\n2. Book Room\n3. Cancel Room\n4. Exit");
             System.out.print("Select: ");
             
-            // Use hasNextInt to prevent crashing on invalid input
+            
             if (!sc.hasNextInt()) {
                 System.out.println("Invalid input. Please enter a number.");
                 sc.next(); 
@@ -114,3 +114,4 @@ public class CodeAlpha_Hotel_Reservation_System {
     }
 
 }
+
