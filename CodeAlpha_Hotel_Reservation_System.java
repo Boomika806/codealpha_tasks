@@ -110,6 +110,7 @@ public class CodeAlpha_Hotel_Reservation_System {
                 boolean status = Boolean.parseBoolean(parts[1]);
                 for (Room r : rooms) if (r.id == id) r.isAvailable = status;
             }
-        } catch (Exception e) { /* Silently ignore if file is empty/corrupt */ }
+        } catch (Exception e) { }
     }
+
 }
